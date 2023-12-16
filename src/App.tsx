@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Scrollbar } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 import Swiper from "swiper";
+import { Element, Link } from "react-scroll";
 import "./App.scss";
 
 export function App() {
@@ -154,29 +155,29 @@ export function App() {
                 <nav className="nav">
                   <ul className="nav__list">
                     <li className="nav__item">
-                      <a href="#" className="nav__link">
+                      <Link to="Roadmap" smooth className="nav__link">
                         {t("Roadmap")}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav__item">
-                      <a href="#" className="nav__link">
+                      <Link to="Tokenomics" smooth className="nav__link">
                         {t("Tokenomics")}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav__item">
-                      <a href="#" className="nav__link">
+                      <Link to="FAQ" smooth className="nav__link">
                         {t("FAQ")}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav__item">
-                      <a href="#" className="nav__link">
+                      <Link to="Contact" smooth className="nav__link">
                         {t("Contact")}
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav__item">
-                      <a href="#" className="nav__link">
+                      <Link to="Whitepaper" smooth className="nav__link">
                         {t("Whitepaper")}
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>
@@ -480,6 +481,9 @@ export function App() {
             </div>
           </div>
         </section>
+
+        <Element name="Roadmap" />
+
         <section className="section section-roadmap">
           <div className="section__wrapper section__wrapper--roadmap">
             <div className="container">
@@ -589,6 +593,9 @@ export function App() {
             </div>
           </div>
         </section>
+
+        <Element name="Tokenomics" />
+
         <section className="section section-tokenomics">
           <div className="section__wrapper section__wrapper--tokenomics">
             <div className="container">
@@ -659,6 +666,7 @@ export function App() {
             </div>
           </div>
         </section>
+
         <section className="section section-team">
           <div className="section__wrapper section__wrapper--team">
             <div className="container">
@@ -795,6 +803,9 @@ export function App() {
             </div>
           </div>
         </section>
+
+        <Element name="FAQ" />
+
         <section className="section">
           <div className="section__wrapper section__wrapper--faq">
             <div className="section__header section__header--margin--big">
@@ -876,6 +887,9 @@ export function App() {
             </div>
           </div>
         </section>
+
+        <Element name="Contact" />
+
         <section className="section section-contacts">
           <div className="section__wrapper section__wrapper--contacts">
             <div className="container">
