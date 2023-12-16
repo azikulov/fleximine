@@ -324,7 +324,7 @@ export function App() {
                         <ul className="hero-timer__list">
                           <li className="hero-timer__list-item">
                             <p className="hero-timer__title">{t("USDT RAISED:")}</p>
-                            <p className="hero-timer__text">$0 / $1,541,299</p>
+                            <p className="hero-timer__text">$0 / $5,000,000</p>
                           </li>
                           <li className="hero-timer__list-item">
                             <p className="hero-timer__title">{t("Your purchased FXM:")}</p>
@@ -810,7 +810,7 @@ export function App() {
                     <ul className="faq__list">
                       <li className="faq-item" onClick={handleToggleFaq}>
                         <a href="#" className="faq-item__header">
-                          <p className="faq-item__title">{t("What is Why do we need Bitcoin Minetrix??")}</p>
+                          <p className="faq-item__title">{t("What is FlexiMine?")}</p>
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
@@ -820,7 +820,7 @@ export function App() {
 
                       <li className="faq-item" onClick={handleToggleFaq}>
                         <a href="#" className="faq-item__header">
-                          <p className="faq-item__title">{t("What is cloud mining?")}</p>
+                          <p className="faq-item__title">{t("How can I buy FXM tokens?")}</p>
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
@@ -830,7 +830,7 @@ export function App() {
 
                       <li className="faq-item" onClick={handleToggleFaq}>
                         <a href="#" className="faq-item__header">
-                          <p className="faq-item__title">{t("What is the difference between tokens and credits?")}</p>
+                          <p className="faq-item__title">{t("What makes FlexiMine unique?")}</p>
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
@@ -840,7 +840,7 @@ export function App() {
 
                       <li className="faq-item" onClick={handleToggleFaq}>
                         <a href="#" className="faq-item__header">
-                          <p className="faq-item__title">{t("What are the presale and launch dates?")}</p>
+                          <p className="faq-item__title">{t("How does staking work in FlexiMine?")}</p>
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
@@ -850,7 +850,7 @@ export function App() {
 
                       <li className="faq-item" onClick={handleToggleFaq}>
                         <a href="#" className="faq-item__header">
-                          <p className="faq-item__title">{t("What happens if not all tokens are sold?")}</p>
+                          <p className="faq-item__title">{t("What are the benefits for FXM presale participants?")}</p>
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
@@ -860,7 +860,7 @@ export function App() {
 
                       <li className="faq-item" onClick={handleToggleFaq}>
                         <a href="#" className="faq-item__header">
-                          <p className="faq-item__title">{t("Why do we need FlexiMine?")}</p>
+                          <p className="faq-item__title">{t("How does FlexiMine ensure security and transparency?")}</p>
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
