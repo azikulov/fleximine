@@ -12,7 +12,7 @@ export function App() {
     e.currentTarget.parentElement.classList.toggle("language-select--active");
   }
   function handleToggleLang() {
-    i18n.changeLanguage("ru");
+    i18n.changeLanguage(i18n.language === "ru" ? "en" : "ru");
   }
 
   function handleToggleMenu(e: any) {
@@ -195,14 +195,32 @@ export function App() {
               <div className="header__buttons">
                 <div className="language-select">
                   <a href="#" onClick={handleSome} className="language-select__current">
-                    <img src="assets/images/flags/us.svg" alt="" className="language-select__icon" />
-                    <p className="text text--white text--middle">ENG</p>
+                    {i18n.language === "ru" ? (
+                      <>
+                        <img src="assets/images/flags/ru.svg" alt="" className="language-select__icon" />
+                        <p className="text text--white text--middle">RUS</p>
+                      </>
+                    ) : (
+                      <>
+                        <img src="assets/images/flags/us.svg" alt="" className="language-select__icon" />
+                        <p className="text text--white text--middle">ENG</p>
+                      </>
+                    )}
                   </a>
 
                   <div onClick={handleToggleLang} className="language-select__list">
                     <a href="#" className="language-select__item">
-                      <img src="assets/images/flags/ru.svg" alt="" className="language-select__icon" />
-                      <p className="text text--white text--middle">Русский</p>
+                      {i18n.language !== "ru" ? (
+                        <>
+                          <img src="assets/images/flags/ru.svg" alt="" className="language-select__icon" />
+                          <p className="text text--white text--middle">Русский</p>
+                        </>
+                      ) : (
+                        <>
+                          <img src="assets/images/flags/us.svg" alt="" className="language-select__icon" />
+                          <p className="text text--white text--middle">Английский</p>
+                        </>
+                      )}
                     </a>
                   </div>
                 </div>
