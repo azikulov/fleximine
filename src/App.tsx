@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Scrollbar } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 import Swiper from "swiper";
 import "./App.scss";
@@ -118,12 +119,14 @@ export function App() {
       slidesPerView: "auto",
       spaceBetween: 20,
       scrollbar: sliderScrollbar,
+      modules: [Scrollbar],
     });
 
     const teamSlider = new Swiper(".js-team-slider", {
       slidesPerView: "auto",
       spaceBetween: 20,
       scrollbar: sliderScrollbar,
+      modules: [Scrollbar],
     });
 
     return () => {
@@ -150,11 +153,6 @@ export function App() {
               <div className="header__nav">
                 <nav className="nav">
                   <ul className="nav__list">
-                    <li className="nav__item">
-                      <a href="#" className="nav__link">
-                        {t("About")}
-                      </a>
-                    </li>
                     <li className="nav__item">
                       <a href="#" className="nav__link">
                         {t("Roadmap")}
@@ -584,6 +582,7 @@ export function App() {
                       </div>
                     </div>
                   </div>
+
                   <div className="slider-scrollbar" />
                 </div>
               </div>
