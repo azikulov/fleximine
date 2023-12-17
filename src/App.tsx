@@ -417,8 +417,7 @@ export function App() {
                 <div className="section-what__content">
                   <div className="section__header">
                     <p className="title title--base title--white">
-                      <span className="title title--base title--grey">{t("What is")}</span>
-                      FlexiMine
+                      <span className="title title--base title--grey">{t("What is")}</span> FlexiMine
                     </p>
                   </div>
                   <div className="section__content">

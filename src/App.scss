@@ -1067,6 +1067,7 @@ body {
         transform: translateX(-25px);
         img {
           width: 100%;
+          transform: translateX(1.25rem);
         }
       }
     }
@@ -1947,7 +1948,7 @@ body {
     gap: 17px;
 
     @media screen and (max-width: 768px) {
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       gap: 0;
@@ -1956,18 +1957,6 @@ body {
       li {
         display: flex;
         align-items: center;
-        &:not(:last-child) {
-          &::after {
-            content: "";
-            height: 12px;
-            width: 1px;
-            display: block;
-            margin: 0 16px;
-            flex-shrink: 0;
-
-            background-color: #cacaca;
-          }
-        }
       }
     }
   }
