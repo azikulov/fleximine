@@ -377,6 +377,7 @@ export function App() {
             </div>
           </div>
         </div>
+
         <div className="partners">
           <div className="partners__wrapper">
             <div className="container">
@@ -410,6 +411,7 @@ export function App() {
             </div>
           </div>
         </div>
+
         <section className="section section-what">
           <div className="section__wrapper section__wrapper--what">
             <div className="container">
@@ -420,13 +422,16 @@ export function App() {
                       <span className="title title--base title--grey">{t("What is")}</span> FlexiMine
                     </p>
                   </div>
+
                   <div className="section__content">
                     <p className="text text--middle text--white">{t(`FlexiMine provides you with the tools to make your cryptocurrency assets work for you. Our platform offers both staking and mining capabilities in one place, allowing you to increase earnings and enhance your investments. Utilize the power of AI to automatically select the most profitable assets for mining or choose to mine a specific currency manually. Instant access to mining and staking, as well as the ability to withdraw earned funds at any time, makes FlexiMine the perfect choice for those seeking flexibility and efficiency.`)}</p>
                   </div>
+
                   <div className="section__footer">
                     <p className="text text--middle text--gradient">{t("FlexiMine: Mastery of Mining and Staking at Your Command")}</p>
                   </div>
                 </div>
+
                 <div className="section-what__img">
                   <img src="assets/images/what/what-img.png" alt="" />
                 </div>
@@ -434,6 +439,7 @@ export function App() {
             </div>
           </div>
         </section>
+
         <section className="section section-start">
           <div className="section__wrapper">
             <div className="container">
@@ -823,7 +829,7 @@ export function App() {
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
-                          <p className="text text--base text--white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, assumenda?</p>
+                          <p className="text text--base text--white">{t("FlexiMine is an innovative platform for cryptocurrency mining and staking, combining the advantages of cloud mining with artificial intelligence. Users can choose cryptocurrencies for mining, such as Bitcoin or Dogecoin, and participate in staking. It is also possible to use AI for automatically selecting the most profitable options for mining and staking.")}</p>
                         </div>
                       </li>
 
@@ -833,7 +839,7 @@ export function App() {
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
-                          <p className="text text--base text--white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, assumenda?</p>
+                          <p className="text text--base text--white">{t("FXM tokens are available for purchase on our official website fleximine.com using cryptocurrencies such as USDT or Ethereum.")}</p>
                         </div>
                       </li>
 
@@ -843,7 +849,7 @@ export function App() {
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
-                          <p className="text text--base text--white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, assumenda?</p>
+                          <p className="text text--base text--white">{t("FlexiMine offers a unique mining opportunity by using any cryptocurrency as mining power under collateral. This innovation is a first in the crypto industry.")}</p>
                         </div>
                       </li>
 
@@ -853,7 +859,7 @@ export function App() {
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
-                          <p className="text text--base text--white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, assumenda?</p>
+                          <p className="text text--base text--white">{t("In FlexiMine, users can stake any cryptocurrency that supports staking, within a unified ecosystem.")}</p>
                         </div>
                       </li>
 
@@ -863,7 +869,7 @@ export function App() {
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
-                          <p className="text text--base text--white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, assumenda?</p>
+                          <p className="text text--base text--white">{t("Participants in the presale will receive a lifetime bonus in mining power, which will be individually calculated after the end of the presale.")}</p>
                         </div>
                       </li>
 
@@ -873,7 +879,7 @@ export function App() {
                           <span className="faq-item__icon" />
                         </a>
                         <div className="faq-item__content">
-                          <p className="text text--base text--white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, assumenda?</p>
+                          <p className="text text--base text--white">{t("FlexiMine utilizes state-of-the-art security technologies and provides users with full control over their investments and mining activities.")}</p>
                         </div>
                       </li>
                     </ul>
