@@ -39,6 +39,7 @@ body {
   }
   &--gradient {
     background: linear-gradient(90deg, #949efd, #954fff, #bb70ff, #56a4ff);
+    border-radius: 8px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -97,8 +98,14 @@ body {
   &--buy {
     width: 200px;
     height: 47px;
-    // background: linear-gradient(2deg, #0b729f -108.41%, #7302ee -12.71%, #00b3ff 98.62%, #03b0fb 98.62%);
-    background: linear-gradient(7deg, #252b7e -5.12%, #6e31dc 32.09%, #932fff 62.48%, #36e7ff 137.94%);
+
+    // background: linear-gradient(7deg, #252b7e, #6e31dc, #932fff, #36e7ff);
+
+    background-image: url("/public/assets/images/button-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
     border-radius: 14px;
 
     font-family: var(--main-font);
