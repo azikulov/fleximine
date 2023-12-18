@@ -529,13 +529,29 @@ export function App() {
                           <p className="title title--small title--white">Q1 2024</p>
                         </div>
                         <div className="roadmap-item__content">
-                          <p className="text text--middle text--white">{t("Official release of FlexiMine's mobile and desktop applications.")}</p>
-                          <p className="text text--middle text--white">{t("Completion of the presale phase and opening of the platform for deposits and staking.")}</p>
-                          <p className="text text--middle text--white">{t("Enabling the feature for users to withdraw mined funds.")}</p>
-                          <p className="text text--middle text--white">{t("Implementation of marketing campaigns involving influencers and active promotion on social media.")}</p>
-                          <p className="text text--middle text--white">{t("Introduction of intelligent AI algorithms to enhance multi-mining.")}</p>
-                          <p className="text text--middle text--white">{t("Expansion of the customer support team to ensure a high level of service.")}</p>
-                          <p className="text text--middle text--white">{t("Listing of the FXM token on leading centralized cryptocurrency exchanges (CEX).")}</p>
+                          <ul className="roadmap-list">
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Official release of FlexiMine's mobile and desktop applications.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Completion of the presale phase and opening of the platform for deposits and staking.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Enabling the feature for users to withdraw mined funds.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Implementation of marketing campaigns involving influencers and active promotion on social media.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Introduction of intelligent AI algorithms to enhance multi-mining.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Expansion of the customer support team to ensure a high level of service.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Listing of the FXM token on leading centralized cryptocurrency exchanges (CEX).")}</p>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -545,10 +561,20 @@ export function App() {
                           <p className="title title--small title--white">Q2 2024</p>
                         </div>
                         <div className="roadmap-item__content">
-                          <p className="text text--middle text--white">{t("Intensification of marketing efforts focused on demonstrating successful mining and staking use cases.")}</p>
-                          <p className="text text--middle text--white">{t("Development of partnerships with major cloud mining providers.")}</p>
-                          <p className="text text--middle text--white">{t("Strategic partnership with key cryptocurrency exchanges to increase FXM token liquidity.")}</p>
-                          <p className="text text--middle text--white">{t("Launch of loyalty programs and referral systems to stimulate community growth.")}</p>
+                          <ul className="roadmap-list">
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Intensification of marketing efforts focused on demonstrating successful mining and staking use cases.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Development of partnerships with major cloud mining providers.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Strategic partnership with key cryptocurrency exchanges to increase FXM token liquidity.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Launch of loyalty programs and referral systems to stimulate community growth.")}</p>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -558,10 +584,20 @@ export function App() {
                           <p className="title title--small title--white">Q3 2024</p>
                         </div>
                         <div className="roadmap-item__content">
-                          <p className="text text--middle text--white">{t("Optimization of staking functionality on the FlexiMine platform.")}</p>
-                          <p className="text text--middle text--white">{t("Conducting educational webinars and master classes for users.")}</p>
-                          <p className="text text--middle text--white">{t("Improvement of analytics tools for tracking mining and staking results.")}</p>
-                          <p className="text text--middle text--white">{t("Planning and preparation for the platform's expansion into new markets.")}</p>
+                          <ul className="roadmap-list">
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Optimization of staking functionality on the FlexiMine platform.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Conducting educational webinars and master classes for users.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Improvement of analytics tools for tracking mining and staking results.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Planning and preparation for the platform's expansion into new markets.")}</p>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -571,10 +607,20 @@ export function App() {
                           <p className="title title--small title--white">Q4 2024</p>
                         </div>
                         <div className="roadmap-item__content">
-                          <p className="text text--middle text--white">{t("Implementation of new features and improvements in mobile and desktop applications.")}</p>
-                          <p className="text text--middle text--white">{t("Expansion of the platform's geographic presence in new markets.")}</p>
-                          <p className="text text--middle text--white">{t("Implementation of advanced measures for the protection of user assets.")}</p>
-                          <p className="text text--middle text--white">{t("Integration with additional blockchain platforms and DeFi projects.")}</p>
+                          <ul className="roadmap-list">
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Implementation of new features and improvements in mobile and desktop applications.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Expansion of the platform's geographic presence in new markets.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Implementation of advanced measures for the protection of user assets.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Integration with additional blockchain platforms and DeFi projects.")}</p>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -584,9 +630,17 @@ export function App() {
                           <p className="title title--small title--white">Q1 2025</p>
                         </div>
                         <div className="roadmap-item__content">
-                          <p className="text text--middle text--white">{t("Launch of new tools for staking a variety of cryptocurrencies.")}</p>
-                          <p className="text text--middle text--white">{t("Implementation of automatic reinvestment features for mining revenues.")}</p>
-                          <p className="text text--middle text--white">{t("Expansion of the network of strategic partnerships to strengthen the platform.")}</p>
+                          <ul className="roadmap-list">
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Launch of new tools for staking a variety of cryptocurrencies.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Implementation of automatic reinvestment features for mining revenues.")}</p>
+                            </li>
+                            <li className="roadmap-list__item">
+                              <p className="text text--middle text--white">{t("Expansion of the network of strategic partnerships to strengthen the platform.")}</p>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
